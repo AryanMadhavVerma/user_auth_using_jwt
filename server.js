@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 
-const posts = [
+const posts = [ //can be fetched from mongodb 
     {
         username: 'Aryan',
         title: 'Post1',
